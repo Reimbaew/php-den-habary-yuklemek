@@ -32,6 +32,26 @@
 </head>
 
 <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./">Esasy sahypa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="settings.php">Düzetmeler</a>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+    </nav>
     <div class="container-fluid px-5 my-3 h-75">
         <div class="col-lg-10 col-md-11 col-sm-12 mx-auto my-5">
             <div class="d-flex justify-content-end">
